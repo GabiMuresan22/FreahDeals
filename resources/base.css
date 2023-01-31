@@ -1,0 +1,62 @@
+/* Site-Wide Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: hsla(0, 0%, 13%, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  border: solid 1px hsla(0, 0%, 59%, 1);
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+/* Reusable Component - Button */
+
+.button {
+  border-radius: 4px;
+  background-color: hsla(88, 100%, 25%, 1);
+  text-align: center;
+  font-weight: bold;
+  color: hsla(0, 0%, 100%, 1);
+  transition: 0.25s;
+}
+
+.button:hover {
+  background-color: hsla(88, 100%, 25%, 0.8);
+  color: hsla(0, 0%, 100%, 1);
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
